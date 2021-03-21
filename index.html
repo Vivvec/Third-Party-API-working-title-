@@ -32,17 +32,18 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
+    
+      <!-- Timeblocks go here (originally it was div class="containter")-->
       <div class="m-5 row justify-content-around">
-      <h2>To Do</h2>
+        <div class="col-12">
       <ul id="timeBlocks" class="time-block"></ul>
       <li class="list-group-item">
-        <span class="badge badge-primary badge-pill">9 AM</span>
+        <span class="badge badge-dark badge-pill">9 AM</span>
         <p class="m-1">Add Task Here</p>
       </li>
-      </div>
     </div>
+      </div>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
